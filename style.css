@@ -1,6 +1,6 @@
 body {
     color: #9c9c9c;
-	font: 1rem "PT Sans", sans-serif;
+	font: 1rem "Roboto", sans-serif;
     background-color: #eee;
 }
 
@@ -80,13 +80,37 @@ a:hover {
   padding: 22px 18px;
 }
 
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #a3a3a3;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #a3a3a3;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #a3a3a3;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #a3a3a3;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+   color:    #a3a3a3;
+}
+
+::placeholder { /* Most modern browsers support this now. */
+   color:    #a3a3a3;
+}
+
 .countdown {
-    font-size: 22px;
-    padding-bottom: 15px;
+    font-size: 25px;
+    line-height: 1.3333;
+    padding-bottom: 25px;
     text-align: center;
 }
 
 .subscriber {
     padding-top: 6px;
     font-size: 12px;
+    text-align: center;
 }
