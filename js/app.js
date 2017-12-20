@@ -1,5 +1,5 @@
-(function() {
-  var start = new Date;
+(function () {
+  var start = new Date ();
   start.setHours(23, 59, 59); // 11pm
 
   function pad(num) {
@@ -7,7 +7,7 @@
   }
 
   function tick() {
-    var now = new Date;
+    var now = new Date ();
     if (now > start) { // too late, go to tomorrow
       start.setDate(start.getDate() + 1);
     }
