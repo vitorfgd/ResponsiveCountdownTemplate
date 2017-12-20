@@ -5,7 +5,7 @@ If you'd like to help me, you can always **fork** this repository, make your cha
 Images
 ------------
 
-![alt text](img/image.png "Site Preview")
+![alt text](image.png "Site Preview")
 
 Contributing
 -------------
